@@ -26,7 +26,7 @@ body {
     height: 1800px;
     margin: 0;
     top: 0;
-    background: url(main.jpg)50% 50% fixed;
+    background: url(main.jpg)50% fixed;
     z-index: -1;
 }
 
