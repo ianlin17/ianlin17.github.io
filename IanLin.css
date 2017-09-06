@@ -77,13 +77,19 @@ body {
 .intro>p {
     padding-top: 10px;
     letter-spacing: 1.2px;
-    line-height: 16px;
+    line-height: 19px;
     font-size: 1.2em;
     font-family: Helvetica;
-    max-width: 40%;
+    max-width: 60%;
     margin: 0 auto;
 }
-
+.wrong_msg{
+  text-align: center;
+  margin:0 auto;
+  letter-spacing: 1.2px;
+  font-size: 1.2em;
+  font-size: 1.5em;
+}
 .profile {
     vertical-align: middle;
     text-align: center;
@@ -106,8 +112,8 @@ body {
     vertical-align: middle;
     text-align: center;
     border: 1px solid black;
-    margin: 1% auto;
-    width: 30%;
+    margin: 0 auto;
+    width: 40%;
     display: block;
 }
 
@@ -115,7 +121,7 @@ body {
     background-color: black;
     color: white;
     cursor: pointer;
-    transition: all .5s;
+    transition: all 1s;
 }
 
 .resume>p {
@@ -175,12 +181,22 @@ body {
     width: 100%;
     margin: 2px 0px 0px 0px;
 }
+.reload{
+  width: 200px;
+  height: 20px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin: 0 auto;
+  text-align: center;
+}
 
 .progress {
     background: #e9e5e2;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#dddddd), to(#e9e5e2));
     background-image: -webkit-linear-gradient(top, #dddddd, #e9e5e2);
-    background-image: -moz-linear-gradient(top, #dddddd, #e9e5e2);
+    background-image:
+     -moz-linear-gradient(top, #dddddd, #e9e5e2);
     background-image: -ms-linear-gradient(top, #dddddd, #e9e5e2);
     background-image: -o-linear-gradient(top, #dddddd, #e9e5e2);
     background-image: linear-gradient(top, #dddddd, #e9e5e2);
@@ -203,10 +219,10 @@ body {
 .rwd,
 .mobile,
 .mysql {
-    -webkit-transition: width 4.50s ease !important;
-    -moz-transition: width 4.50s ease !important;
-    -o-transition: width 4.50s ease !important;
-    transition: width 4.50s ease !important;
+    -webkit-transition: width 4s ease-in !important;
+    -moz-transition: width 4s ease-in !important;
+    -o-transition: width 4s ease-in !important;
+    transition: width 4s ease-in !important;
 }
 
 .profolio {
@@ -246,7 +262,7 @@ body {
     background-color: black;
     color: white;
     cursor: pointer;
-    transition: all .5s;
+    transition: all 1s;
 }
 
 
